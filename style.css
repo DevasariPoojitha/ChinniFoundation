@@ -1,0 +1,165 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: url("food.jpeg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+header {
+    background-color: #1abc9c;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.logo {
+    width: 80px;
+    height: auto;
+}
+.landing {
+    background:
+        linear-gradient(
+            rgba(0, 0, 0, 0.55),
+            rgba(0, 0, 0, 0.55)
+        ),
+        url("people.jpeg") center/cover no-repeat;
+
+    color: white;
+    padding: 40px 20px;
+    text-align: left;
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+nav {
+    background-color: #333;
+    display: flex;
+    justify-content: center;   /* center buttons */
+    align-items: center;
+    gap: 30px;                 /* space between buttons */
+    padding: 12px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 18px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #1abc9c;
+}
+
+.hidden {
+    display: none;
+}
+
+.landing {
+    background:
+        linear-gradient(
+            rgba(0, 0, 0, 0.55),
+            rgba(0, 0, 0, 0.55)
+        ),
+        url("food.jpeg") center/cover no-repeat;
+
+    color: white;
+    padding: 40px 20px;
+    text-align: left;
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+h2 {
+    color: #1abc9c;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+}
+
+button {
+    background-color: #1abc9c;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #16a085;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+#about h2,
+#donate h2,
+#contact h2 {
+    color: #E1306C;   /* pink */
+}
+#about,
+#donate,
+#contact {
+    background: rgba(0, 0, 0, 0.65);   /* dark overlay */
+    padding: 30px;
+    margin: 20px;
+    border-radius: 12px;
+}
+
+/* Text readability */
+#about p,
+#donate p,
+#contact p,
+#contact a {
+    color: #ffffff;
+    line-height: 1.7;
+    font-size: 16px;
+}
+
+/* Headings stay pink */
+#about h2,
+#donate h2,
+#contact h2 {
+    color: #E1306C;
+}
+nav a {
+    color: white;
+    padding: 10px 18px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+/* Hover color */
+nav a:hover {
+    background-color: #E1306C; /* pink */
+}
+
+/* Active (clicked) button */
+nav a.active {
+    background-color: #E1306C; /* pink */
+    color: white;
+}
+#donate button {
+    background-color: #E1306C;   /* pink */
+    color: white;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+/* Hover effect */
+#donate button:hover {
+    background-color: #c2185b;   /* darker pink */
+}
